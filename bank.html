@@ -19,11 +19,11 @@
         <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
           <div class="bg-teal-500 p-8 rounded-lg font-medium">
             <h4 class="text-3xl">Deposit</h4>
-            <h2 class="text-5xl">$<span id="deposit-total" >00</span></h2>
+            <h2 class="text-5xl">$<span id="deposit-total">00</span></h2>
           </div>
           <div class="bg-indigo-500 p-8 rounded-lg font-medium">
             <h4 class="text-3xl">WithDraw</h4>
-            <h2 class="text-5xl">$00</h2>
+            <h2 class="text-5xl">$<span id="withdraw-total">00</span></h2>
           </div>
           <div class="bg-purple-500 p-8 rounded-lg font-medium">
             <h4 class="text-3xl">Balence</h4>
@@ -58,11 +58,11 @@
               type="text
     "
               name=""
-              id="user-email"
+              id="withdraw-field"
               placeholder="$ Ammount you want to WithDraw"
             />
             <button
-              id="btn-submit"
+              id="btn-withdraw"
               class="bg-amber-600 hover:bg-sky-700 px-8 py-2 text-white font-medium rounded-lg"
             >
               WithDraw
@@ -72,5 +72,6 @@
       </section>
     </main>
     <script src="./js/depsit.js"></script>
+    <script src="./js/withdraw.js"></script>
   </body>
 </html>
